@@ -1,7 +1,6 @@
 require('pry')
 
-class String
-  def anagram
-    self
-  end
+def anagram(word1,word2)
+  puts word1, word2
+  return true
 end

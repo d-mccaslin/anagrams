@@ -23,4 +23,8 @@ describe("#anagrams") do
     expect(anagrams("car","bus")).to(eq("These words are antigrams"))
   end
 
+  it("accounts for multi-word and punctuated phrases being anagrams or antigrams") do
+    expect(anagrams("Hello, team.","Elloh mate!")).to(eq("These words are anagrams"))
+  end
+
 end

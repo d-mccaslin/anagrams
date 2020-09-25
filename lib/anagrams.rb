@@ -4,6 +4,13 @@ def anagrams(word1,word2)
   word1 = word1.downcase
   word2 = word2.downcase
 
+  puts word1, word2
+
+  word1 = word1.gsub(/\W/,'')
+  word2 = word2.gsub(/\W/,'')
+
+  puts word1, word2
+
   if !(word1.match(/[aeiou]/))
     return "Input real words"
   end

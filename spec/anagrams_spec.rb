@@ -19,4 +19,8 @@ describe("#anagrams") do
     expect(anagrams("rbb","brb")).to(eq("Input real words"))
   end
 
+  it("checks if the words are antigrams, meaning that no letters match") do
+    expect(anagrams("car","bus")).to(eq("These words are antigrams"))
+  end
+
 end

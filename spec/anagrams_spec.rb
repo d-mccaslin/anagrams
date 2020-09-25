@@ -11,4 +11,8 @@ describe("String#anagram") do
     expect(anagram("ruby","bury")).to(eq(true))
   end
 
+  it("accounts for differences in case between the words") do
+    expect(anagram("Eat","Tea")).to(eq(true))
+  end
+
 end

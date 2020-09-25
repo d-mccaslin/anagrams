@@ -1,8 +1,16 @@
 require('pry')
 
-def anagram(word1,word2)
+def isAnagram(word1,word2)
   word1 = word1.downcase
   word2 = word2.downcase
+
+  if !(word1.match(/[aeiou]/))
+    return false
+  end
+
+  if !(word2.match(/[aeiou]/))
+    return false
+  end
 
   word_array_1 = word1.split('')
 

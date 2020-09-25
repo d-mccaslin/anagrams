@@ -1,15 +1,15 @@
 require('pry')
 
-def isAnagram(word1,word2)
+def anagrams(word1,word2)
   word1 = word1.downcase
   word2 = word2.downcase
 
   if !(word1.match(/[aeiou]/))
-    return false
+    return "Input real words"
   end
 
   if !(word2.match(/[aeiou]/))
-    return false
+    return "Input real words"
   end
 
   word_array_1 = word1.split('')
@@ -23,9 +23,9 @@ def isAnagram(word1,word2)
   end
 
   if matches == word2.length
-    return true
+    return "These words are anagrams"
   else
-    return false
+    return "These words are not anagrams"
   end
 
 end

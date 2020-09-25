@@ -1,10 +1,10 @@
 require('pry')
 
 def anagram(word1,word2)
-  puts word1, word2
+  word1 = word1.downcase
+  word2 = word2.downcase
 
   word_array_1 = word1.split('')
-  #word_array_2 = word2.split('')
 
   matches = 0
 

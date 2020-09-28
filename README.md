@@ -6,7 +6,7 @@
 
 ## Description
 
-This application allows users to enter two words or phrases and receive information on if those words are anagrams. The application will also 
+This application allows users to enter two words or phrases and receive information on if those words are anagrams. The application will determine if the words are anagrams - containing the same set of letters but in a different order - or if they are antigrams - containing none of the same letters. The application will also filter for non-words, such as words that do not contain a vowel.
 
 ## Setup/Installation Requirements
 

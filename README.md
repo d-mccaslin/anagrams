@@ -6,13 +6,18 @@
 
 ## Description
 
-This application allows users....
+This application allows users to enter two words or phrases and receive information on if those words are anagrams. The application will also 
 
 ## Setup/Installation Requirements
 
-* Find repository on GitHub or otherwise obtain repo link
+* Find repository on GitHub
 * Clone, fork, or otherwise download the project
-* Run the project through a local server, live server, directly in the browser, or any method of your choosing
+* Through a terminal, navigate to the project directory
+* Ensure that the latest version of Ruby is installed
+* In the terminal, run <strong>gem install bundler</strong>
+* Next, run <strong>bundle install</strong>
+* Use <strong>rspec</strong> to test functionality from the project
+
 * The recommended editor for viewing the application is Visual Studio Code
 
 ## Known Bugs

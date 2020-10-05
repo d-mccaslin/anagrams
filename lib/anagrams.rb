@@ -32,7 +32,7 @@ class Phrase
 
     if matches == word2.length
       return "These words are anagrams"
-    elsif matches = 0
+    elsif matches == 0
       return "These words are antigrams"
     else
       return "These words are not anagrams"
